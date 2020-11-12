@@ -1,0 +1,92 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+$transition: color .5s ease, fill .5s ease, background-color .5s ease, box-shadow .5s ease, transform .5s ease;
+
+a {
+	&:hover {
+		text-decoration: underline;
+	}	
+}
+
+.amazon {
+	color: #FF9900;
+	&:hover {
+		color: #FF9900;
+		text-decoration: underline;
+		filter: brightness(0.9);
+	}
+	&:visited {
+		color: #FF9900;
+	}
+}
+
+.ibm {
+	color: #0f62fe;
+	&:hover {
+		color:  #0f62fe;
+		text-decoration: underline;
+		filter: brightness(0.9);
+	}
+	&:visited {
+		color:#0f62fe;
+	}
+}
+
+.columbia {
+	color:  #B9D9EB;
+	&:hover {
+		color: #B9D9EB;
+		text-decoration: underline;
+		filter: brightness(0.9);
+	}
+	&:visited {
+		color:#B9D9EB;
+	}
+}
+
+.adi {
+	color: #5cacfc;
+	&:hover {
+		color: #5cacfc;
+		text-decoration: underline;
+		filter: brightness(0.9);
+	}
+	&:visited {
+		color:#5cacfc;
+	}
+}
+
+.devfest {
+	color: #f3b1be;
+	&:hover {
+		color: #f3b1be;
+		text-decoration: underline;
+		filter: brightness(0.9);
+	}
+	&:visited {
+		color:#f3b1be;
+	}
+}
+
+.social {
+	text-align: center;
+}
+
+.exp {
+	font-size: 1.5rem;
+}
+.social-item {
+	margin-left: 1rem;
+	transition: $transition;
+    svg path {
+        fill: #595959;
+    }
+	&:hover {
+		svg path {
+			fill: #222;
+		}
+	}
+}
